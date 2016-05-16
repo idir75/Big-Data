@@ -4,14 +4,14 @@
 
 Objectifs 
 
-### Concept 1
+### Big data
 
 Les points à aborder
 
 1. Point 1
 2. Point 2
 
-### File to be downloaded
+### Hadoop
 
 **Hadoop Tar ball:** Access the Hortonworks Sandbox and know the version of Hadoop used in it.  [Download](http://www.apache.org/dyn/closer.cgi/hadoop/common/ "Download a Hadoop Release") the tar.gz file of same version as the one present in the Hortonworks Sandbox.   
 **Note**: Extract the downloaded Hadoop tar.gz file and ensure that it contains the following files:
@@ -20,12 +20,12 @@ Les points à aborder
     b. share/hadoop/mapreduce/hadoop-mapreduce-client-core-*.jar
     c. share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-*.jar
 
-### Explanation of the Use Case
+### MapReduce
 A fictional use case is presenView Vote Count Results
 
 ted here, in order to enable you to easily understand the functionality and power of Hadoop MapReduce, without finding it overwhelming or boring.
 
-####General Elections in Utopia
+### HDFS
 In the democratic country of Utopia, the General Elections (Polls) for the position of President was conducted some days ago.  About five million Utopian Citizens participated in the elections with full enthusiasm and cast their votes to the candidate whom they think deserves the position.  Because of large population, the elections were conducted in 1000 polling booths, geographically separated, so that a citizen can vote from his nearest booth.
 
 There were five contestants for the post.  The names of the candidates are as follows:  
@@ -56,7 +56,7 @@ Jojo
 
 You have to announce the results by this evening, before 5 PM.  It is already 10 AM.  As it happens to be, you are a good Java Programmer. Now, roll up your sleeves and follow the instructions to count the votes and announce the results by 5 PM.
 
-### Instructions
+### Exécution d'un programme Java sur Hadoop
 ####Eclipse Project Setup
 
 ####Code the Mapper Class
