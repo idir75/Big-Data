@@ -21,7 +21,9 @@ Les points à aborder
     c. share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-*.jar
 
 ### Explanation of the Use Case
-A fictional use case is presented here, in order to enable you to easily understand the functionality and power of Hadoop MapReduce, without finding it overwhelming or boring.
+A fictional use case is presenView Vote Count Results
+
+ted here, in order to enable you to easily understand the functionality and power of Hadoop MapReduce, without finding it overwhelming or boring.
 
 ####General Elections in Utopia
 In the democratic country of Utopia, the General Elections (Polls) for the position of President was conducted some days ago.  About five million Utopian Citizens participated in the elections with full enthusiasm and cast their votes to the candidate whom they think deserves the position.  Because of large population, the elections were conducted in 1000 polling booths, geographically separated, so that a citizen can vote from his nearest booth.
@@ -84,11 +86,4 @@ public class VoteCountMapper extends Mapper<Object, Text, Text, IntWritable> {
 }
 
 ```
-
-####View Vote Count Results
-The final, consolidated vote count for each candidate can be found in a file present in the directory `/user/hue/VoteCountOutput`.  View this file using [File Browser](http://localhost:8000/filebrowser/) to know the number of votes each candidate got.
-
-![Job Results](images/tutorial-09/job_results.png "Job Results")
-
-Assuming that you spent approximately an hour, including the setup and running of MapReduce job, you could be ready with the election results by 11 AM.  Then what? Party until 5 PM :)
 
